@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+section h2 {
+    font-family: 'Roboto', sans-serif;
+} 
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+
+header {
+    padding: 32px;
+    background-color: red;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li:hover{
+    background-color: rgb(15, 10, 10);
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.countainer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .countainer ,
+section .countainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 60px;
+}
+
+.brands-list li {
+    display:inline;
+    margin-right: 8px;
+}
+
+section .countainer {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+section {
+    background-color: black;
+    color: white;
+}
+
+section div p {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h3 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: yellow;
+}
+
+#contact .countainer {
+    display: block;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(83, 33, 33);
+}
+
+footer{
+    background-color:red;
+    color: white;
+    padding: 18px 0;
+}
+
+section img.name {
+    width: 640px;
+    height: 500px;
+    padding: 18px;
+}
+
+.social-links img{
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
